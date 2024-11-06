@@ -8,6 +8,7 @@
   height: 110px;
   position: relative;
   background: #eeeeee;
+  overflow: hidden;
 }
 .keyVisual .title {
   position: absolute;
@@ -81,7 +82,6 @@
   margin-left: -11px;
 }
 
-
 .sub_content {
   margin-top: 50px;
   position: relative;
@@ -126,8 +126,6 @@
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-}
-.map_wrap {
 }
 @media (max-width: 1500px) {
   .keyVisual img {
